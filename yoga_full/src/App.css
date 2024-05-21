@@ -1,0 +1,12 @@
+.app {
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    background-color: rgb(254, 251, 247);
+    overflow: hidden;
+  }
+.section {
+    position: relative;
+    display: flex;
+    flex-direction: column;
+  }
