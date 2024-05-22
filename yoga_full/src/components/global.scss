@@ -1,6 +1,20 @@
-// color
+body {
+    background-color: rgb(255, 241, 222);
+  }
 
-// background color
+@font-face {
+    font-family: 'Raleway';
+    src: url('../../public/assets/fonts/Raleway-VariableFont_wght.ttf') format('truetype');
+    font-weight: 400;
+    font-style: normal;
+  }
+  
+@font-face {
+    font-family: 'New-YorkerC';
+    src: url('../../public/assets/fonts/New-YorkerC.ttf') format('truetype');
+    font-weight: 500;
+    font-style: normal;
+  }
+  
+//$fallback-font-stack: Helvetica, Arial, serif; ;
 
-// font Stack
-$fallback-font-stack: Helvetica, Arial, serif; ;

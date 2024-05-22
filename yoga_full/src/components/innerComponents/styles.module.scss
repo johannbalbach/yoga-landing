@@ -39,7 +39,7 @@
 .hero_title6 {
   position: relative;
   width: 493px;
-  font: 400 48px/1.29 "Inter", Helvetica, Arial, serif;
+  font: 400 48px/1.29 "New-YorkerC", Helvetica, Arial, serif;
   color: rgb(120, 151, 118);
   letter-spacing: 0.48px;
 }
@@ -48,13 +48,18 @@
   display: flex;
   flex-direction: column;
 }
+
 .line10 {
   position: relative;
   width: 712px;
   height: 1px;
+  flex: none;
+  align-self: stretch;
+  flex-grow: 0;
   min-height: 1px;
   background-color: rgb(203, 200, 193);
 }
+
 .flex_row1 {
   position: relative;
   display: flex;
@@ -164,7 +169,7 @@
   position: relative;
   margin: 0px 0px 0px 12.32%;
   width: 511px;
-  font: 400 48px/1.29 "Inter", Helvetica, Arial, serif;
+  font: 400 48px/1.29 "New-YorkerC", Helvetica, Arial, serif;
   color: rgb(120, 151, 118);
   letter-spacing: 0.48px;
 }
@@ -180,7 +185,7 @@
 }
 .flex_row3 {
   position: absolute;
-  top: 3101px;
+  top: 3092px;
   right: 0px;
   bottom: auto;
   left: 200px;
@@ -193,7 +198,7 @@
 .hero_title62 {
   position: relative;
   width: 82.58%;
-  font: 400 48px/1.29 "Inter", Helvetica, Arial, serif;
+  font: 400 48px/1.29 "New-YorkerC", Helvetica, Arial, serif;
   color: rgb(120, 151, 118);
   letter-spacing: 0.48px;
 }
@@ -347,8 +352,8 @@
 }
 .hero_title63 {
   position: relative;
-  width: 82.52%;
-  font: 400 48px/1.29 "Inter", Helvetica, Arial, serif;
+  width: 100%;
+  font: 400 48px/1.29 "New-YorkerC", Helvetica, Arial, serif;
   color: rgb(120, 151, 118);
   letter-spacing: 0.48px;
 }
@@ -455,8 +460,8 @@
   position: relative;
   display: flex;
   justify-content: space-between;
-  gap: 0px 10px;
-  margin: 0px auto;
+  gap: 0px 0px;
+  margin: 0px 0px;
   width: 94.1%;
 }
 .text26 {
@@ -772,7 +777,7 @@
   left: 200px;
   width: 530px;
   height: 125px;
-  font: 400 48px/1.29 "Inter", Helvetica, Arial, serif;
+  font: 400 48px/1.29 "New-YorkerC", Helvetica, Arial, serif;
   color: rgb(120, 151, 118);
   letter-spacing: 0.48px;
 }
@@ -818,489 +823,7 @@
   width: 549px;
   height: 549px;
 }
-.flex_col14 {
-  position: absolute;
-  top: 1127px;
-  right: 200px;
-  bottom: auto;
-  left: 993px;
-  display: flex;
-  flex-direction: column;
-  width: 407px;
-  height: 493px;
-}
-.medium_title {
-  position: relative;
-  font: 600 24px/0.7 "Raleway", Helvetica, Arial, serif;
-  color: rgb(91, 97, 88);
-}
-.flex_row22 {
-  position: relative;
-  display: flex;
-  gap: 0px 22px;
-  margin: 40px 0px 0px;
-}
-.image37 {
-  position: relative;
-  width: 24px;
-  min-width: 0px;
-  height: 24px;
-}
-.highlight4 {
-  position: relative;
-  margin: 1px 0px 2px;
-  min-width: 0px;
-  font: 400 16px/1.29 "Raleway", Helvetica, Arial, serif;
-  color: rgb(63, 66, 61);
-}
-.flex_row23 {
-  position: relative;
-  display: flex;
-  gap: 0px 22px;
-  margin: 16px 0px 0px;
-}
-.image26 {
-  position: relative;
-  width: 25px;
-  min-width: 0px;
-  height: 25px;
-}
-.highlight41 {
-  position: relative;
-  margin: 2px 0px;
-  min-width: 0px;
-  font: 400 16px/1.29 "Raleway", Helvetica, Arial, serif;
-  color: rgb(63, 66, 61);
-}
-.highlight13 {
-  position: relative;
-  margin: 48px 0px 0px;
-  font: 400 16px/1.29 "Raleway", Helvetica, Arial, serif;
-  color: rgb(91, 97, 88);
-}
-.image351 {
-  position: relative;
-  margin: 39px 0px 0px;
-  width: 100%;
-}
-.group {
-  position: absolute;
-  top: 1127px;
-  right: 688px;
-  bottom: 4870px;
-  left: 566px;
-  display: flex;
-  flex-direction: column;
-  width: 346px;
-  height: 493px;
-}
-.image30 {
-  position: absolute;
-  bottom: -126px;
-  left: -375px;
-  width: 513px;
-  height: 455px;
-}
-.image36 {
-  position: absolute;
-  top: 0px;
-  left: 0px;
-  width: 346px;
-  height: 493px;
-  border-radius: 173px 173px 173px 0px;
-}
-.flex_col15 {
-  position: absolute;
-  top: 1127px;
-  right: 1110px;
-  bottom: auto;
-  left: 200px;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  width: 290px;
-  height: 150px;
-}
-.flex_row24 {
-  position: relative;
-  display: flex;
-  justify-content: space-between;
-  align-items: center;
-  gap: 0px 10px;
-  width: 100%;
-}
-.btn1 {
-  position: relative;
-  display: flex;
-  justify-content: center;
-  min-width: 173px;
-  font: 400 14px/1.25 "Raleway", Helvetica, Arial, serif;
-  color: rgb(254, 251, 247);
-  text-align: center;
-  background-color: rgb(120, 151, 118);
-  border-radius: 25px 25px 25px 25px;
-  padding: 16px 30px 16px 30px;
-}
-.text13 {
-  position: relative;
-  min-width: 0px;
-  font: 400 14px/1.25 "Raleway", Helvetica, Arial, serif;
-  color: rgb(91, 97, 88);
-}
-.flex_row25 {
-  position: relative;
-  display: flex;
-  justify-content: space-between;
-  gap: 0px 10px;
-  margin: 24px 0px 0px;
-  width: 82.76%;
-}
-.flex_row26 {
-  position: relative;
-  display: flex;
-  justify-content: space-between;
-  gap: 0px 10px;
-  margin: 40px 0px 0px;
-  width: 73.45%;
-}
-.group1 {
-  position: absolute;
-  top: 950px;
-  right: 708px;
-  bottom: 5424px;
-  left: 200px;
-  display: flex;
-  flex-direction: column;
-  width: 692px;
-  height: 116px;
-}
-.subtitle {
-  position: absolute;
-  top: 12px;
-  right: -463px;
-  width: 362px;
-  height: 52px;
-  font: 400 20px/1.29 "Raleway", Helvetica, Arial, serif;
-  color: rgb(63, 66, 61);
-}
-.hero_title1 {
-  position: absolute;
-  top: 0px;
-  left: 0px;
-  width: 692px;
-  height: 116px;
-  font: 400 48px/1.2 "Inter", Helvetica, Arial, serif;
-  color: rgb(97, 139, 94);
-  letter-spacing: 0.34px;
-}
-.flex_col16 {
-  position: absolute;
-  top: 180px;
-  right: 200px;
-  bottom: auto;
-  left: 912px;
-  display: flex;
-  flex-direction: column;
-  gap: 12px 0px;
-  width: 488px;
-  height: 650px;
-}
-.image3 {
-  position: relative;
-  width: 100%;
-  border-radius: 244px 244px 0px 0px;
-}
-.flex_row27 {
-  position: relative;
-  display: flex;
-  gap: 0px 26px;
-}
-.flex_row28 {
-  position: relative;
-  display: flex;
-  gap: 0px 19px;
-  margin: 11px 0px 4px;
-  width: 386px;
-  min-width: 0px;
-}
-.highlight {
-  font: 400 16px/0.68 "Raleway", Helvetica, Arial, serif;
-  color: rgb(0, 0, 0);
-  letter-spacing: 1.12px;
-}
-.highlight_box {
-  position: relative;
-  width: 26px;
-  min-width: 0px;
-}
-.highlight_span0 {
-  font: 1em/1.18 "Raleway", Helvetica, Arial, serif;
-  color: rgb(119, 150, 117);
-}
-.highlight_span1 {
-  font: 0.875em/1.14 "Raleway", Helvetica, Arial, serif;
-  color: rgb(91, 97, 88);
-  letter-spacing: 0.98px;
-}
-.line {
-  position: relative;
-  margin: 5px 0px 13px;
-  width: 100%;
-  min-width: 0px;
-  height: 1px;
-}
-.image4 {
-  position: relative;
-  width: 76px;
-  min-width: 0px;
-  height: 34px;
-}
-.flex_row29 {
-  position: absolute;
-  top: 580px;
-  right: 982px;
-  bottom: auto;
-  left: 200px;
-  display: flex;
-  justify-content: space-between;
-  gap: 0px 10px;
-  width: 418px;
-  height: 257px;
-  @include md {
-    top: 363px;
-    left: 36px;
-  }
-}
-.image2 {
-  position: relative;
-  margin: 0px 0px 7px;
-  width: 183px;
-  min-width: 0px;
-  border-radius: 91.5px 91.5px 0px 0px;
-}
-.flex_col17 {
-  position: relative;
-  display: flex;
-  flex-direction: column;
-  margin: 78px 0px 0px;
-  width: 195px;
-  min-width: 0px;
-}
-.flex_row30 {
-  position: relative;
-  display: flex;
-  gap: 0px 9px;
-}
-.big_title {
-  font: 400 36px/1.2 "Inter", Helvetica, Arial, serif;
-  color: rgb(0, 0, 0);
-}
-.big_title_box {
-  position: relative;
-  min-width: 0px;
-}
-.big_title_span0 {
-  font: 1em/1.2 "New-YorkerC", Helvetica, Arial, serif;
-  color: rgb(99, 125, 97);
-}
-.big_title_span1 {
-  font: 0.4444444444444444em/1.18 "Raleway", Helvetica, Arial, serif;
-}
-.paragraph {
-  position: relative;
-  margin: 8px 0px 1px;
-  width: 142px;
-  min-width: 0px;
-  font: 400 14px/1.25 "Raleway", Helvetica, Arial, serif;
-  color: rgb(63, 66, 61);
-  @include md {
-    width: 183px;
-  }
-}
-.flex_row31 {
-  position: relative;
-  display: flex;
-  gap: 0px 5px;
-  margin: 24px 0px 0px;
-}
-.big_title1 {
-  font: 400 36px/1.2 "Inter", Helvetica, Arial, serif;
-  color: rgb(0, 0, 0);
-}
-.big_title1_box {
-  position: relative;
-  min-width: 0px;
-}
-.big_title1_span0 {
-  font: 1em/1.2 "New-YorkerC", Helvetica, Arial, serif;
-  color: rgb(99, 125, 97);
-}
-.big_title1_span1 {
-  font: 0.4444444444444444em/1.2 "Raleway", Helvetica, Arial, serif;
-}
-.paragraph1 {
-  position: relative;
-  margin: 8px 0px 1px;
-  width: 165px;
-  min-width: 0px;
-  font: 400 14px/1.25 "Raleway", Helvetica, Arial, serif;
-  color: rgb(63, 66, 61);
-}
-.flex_row32 {
-  position: relative;
-  display: flex;
-  gap: 0px 3px;
-  margin: 23px 0px 0px;
-}
-.paragraph2 {
-  position: relative;
-  margin: 8px 0px 1px;
-  width: 115px;
-  min-width: 0px;
-  font: 400 14px/1.25 "Raleway", Helvetica, Arial, serif;
-  color: rgb(63, 66, 61);
-}
-.flex_col18 {
-  position: absolute;
-  top: 191px;
-  right: 821px;
-  bottom: auto;
-  left: 200px;
-  display: flex;
-  flex-direction: column;
-  gap: 22px 0px;
-  width: 579px;
-  height: 266px;
-  @include md {
-    left: 50px;
-    column-gap: 0px;
-    width: 530px;
-  }
-}
-.hero_title {
-  position: relative;
-  font: 400 84px/1.2 "Inter", Helvetica, Arial, serif;
-  color: rgb(99, 125, 97);
-  letter-spacing: 0.59px;
-  @include md {
-    flex: 0 1 auto;
-  }
-}
-.highlight14 {
-  position: relative;
-  margin: 0px 0px 0px 5px;
-  width: 276px;
-  font: 400 16px/1.29 "Raleway", Helvetica, Arial, serif;
-  color: rgb(91, 97, 88);
-  @include md {
-    margin: 0px 0px 0px 37px;
-  }
-}
-.content_box {
-  position: absolute;
-  top: 483px;
-  right: 806px;
-  bottom: auto;
-  left: 639px;
-  display: flex;
-  flex-direction: column;
-  width: 155px;
-  height: 155px;
-  background: var(--src) center center / 100% 100% no-repeat;
-}
-.image10 {
-  position: absolute;
-  top: 30px;
-  left: 36px;
-  width: 82px;
-  height: 70px;
-}
-.highlight31 {
-  position: relative;
-  margin: 72px 0px 72px 25px;
-  width: 88px;
-  font: 500 15px/0.73 "Raleway", Helvetica, Arial, serif;
-  color: rgb(254, 251, 247);
-  letter-spacing: 0.75px;
-}
-.flex_row33 {
-  position: absolute;
-  top: 26px;
-  right: 204px;
-  bottom: auto;
-  left: 205px;
-  display: flex;
-  justify-content: space-between;
-  gap: 0px 10px;
-  width: 1191px;
-  height: 50px;
-  @include md {
-    left: 36px;
-  }
-}
-.flex_row34 {
-  position: relative;
-  display: flex;
-  align-items: center;
-  gap: 0px 6px;
-  width: 113px;
-  min-width: 0px;
-}
-.image9 {
-  position: relative;
-  width: 50px;
-  min-width: 0px;
-  height: 50px;
-}
-.info {
-  position: relative;
-  min-width: 0px;
-  font: 300 12px/1.2 "Bookman Old Style", Helvetica, Arial, serif;
-  color: rgb(120, 151, 118);
-}
-.flex_row35 {
-  position: relative;
-  display: flex;
-  gap: 0px 26px;
-  margin: 23px 0px 18px;
-  width: 472px;
-  min-width: 0px;
-}
-.paragraph11 {
-  position: relative;
-  display: flex;
-  align-items: flex-end;
-  min-width: 0px;
-  font: 500 13px/0.69 "Raleway", Helvetica, Arial, serif;
-  color: rgb(91, 97, 88);
-  letter-spacing: 0.65px;
-  text-decoration: none;
-}
-.flex_row36 {
-  position: relative;
-  display: flex;
-  gap: 0px 5px;
-  margin: 11px 0px 21px;
-  width: 161px;
-  min-width: 0px;
-}
-.highlight2 {
-  position: relative;
-  margin: 4px 0px 3px;
-  min-width: 0px;
-  font: 500 15px/0.73 "Raleway", Helvetica, Arial, serif;
-  color: rgb(91, 97, 88);
-  letter-spacing: 0.75px;
-}
-.decorator {
-  position: absolute;
-  top: 0px;
-  right: 52px;
-  bottom: auto;
-  left: 1203px;
-  width: 345px;
-  height: 370px;
-}
+
 .flex_col19 {
   position: relative;
   display: flex;
@@ -1318,7 +841,7 @@
 }
 .hero_title7 {
   position: relative;
-  font: 400 48px/1 "Inter", Helvetica, Arial, serif;
+  font: 400 48px/1 "New-YorkerC", Helvetica, Arial, serif;
   color: rgb(120, 151, 118);
   letter-spacing: 0.48px;
 }
@@ -1574,11 +1097,6 @@
   color: rgb(254, 251, 247);
 }
 
-.anchor1 {
-  position: absolute;
-  top: 950px;
-  left: 700; 
-}
 .anchor2 {
   position: absolute;
   top: 1752px;

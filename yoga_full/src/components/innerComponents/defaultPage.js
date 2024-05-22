@@ -6,63 +6,6 @@ import styles from './styles.module.scss';
 const DefaultPage = () => {
   return (
     <>
-      <div id="Directions">
-        <div className={styles.anchor1}></div>
-        <div className={styles.flex_col14}>
-          <h2 className={styles.medium_title}>Кундалини-йога</h2>
-
-          <div className={styles.flex_row22}>
-            <img className={styles.image37} src={'/assets/d2365435e39536a2ccdd922b5f5f8dda.svg'} alt="alt text" />
-            <h5 className={styles.highlight4}>Проходит по: пн, ср, пт</h5>
-          </div>
-
-          <div className={styles.flex_row23}>
-            <img className={styles.image26} src={'/assets/a7b132a2d12511a5c1a46c31ed321c60.svg'} alt="alt text" />
-            <h5 className={styles.highlight41}>Длительность: 60 мин</h5>
-          </div>
-
-          <h5 className={styles.highlight13}>
-            Сочетает довольно интенсивные упражнения, специальную дыхательную практику, повторяющиеся асаны. <br />
-            <br />
-            Помогает увеличить уровень энергии и силы, снять напряжение и стресс, улучшить физическую выносливость,
-            концентрацию, стимулировать творческий потенциал <br />и привнести глубокий внутренний покой.
-            <br />
-            <br />
-            Кундалини-йога доступна людям любого возраста и физической подготовки.{' '}
-          </h5>
-          <img className={styles.image351} src={'/assets/735a0b778f870c110a5aace5bbc4d08a.svg'} alt="alt text" />
-        </div>
-
-        <div className={styles.group}>
-          <img className={styles.image30} src={'/assets/58b2ebd9942365e2c39af1ad87a3dda3.svg'} alt="alt text" />
-          <img className={styles.image36} src={'/assets/upward_dog_pose.png'} alt="alt text" />
-        </div>
-
-        <div className={styles.flex_col15}>
-          <div className={styles.flex_row24}>
-            <button className={styles.btn1}>Кундалини-йога </button>
-            <div className={styles.text13}>Хатха-йога </div>
-          </div>
-
-          <div className={styles.flex_row25}>
-            <div className={styles.text13}>Пилатес</div>
-            <div className={styles.text13}>Здоровая спина </div>
-          </div>
-
-          <div className={styles.flex_row26}>
-            <div className={styles.text13}>Флоу-йога </div>
-            <div className={styles.text13}>Стретчинг</div>
-          </div>
-        </div>
-
-        <div className={styles.group1}>
-          <h3 className={styles.subtitle}>Не определились с направлением? Мы подскажем!</h3>
-          <h1 className={styles.hero_title1}>Все направления в одном абонементе</h1>
-        </div>
-
-        <img className={styles.decorator} src={'/assets/0ad68f50bf1d900abd0c3145fea377f9.svg'} alt="alt text" />
-      </div>
-
       <div id="Price" >
         <div className={styles.anchor2}></div>
         <div className={styles.grid}>
@@ -236,7 +179,7 @@ const DefaultPage = () => {
           </div>
 
           <div className={styles.flex_col11}>
-            <hr className={styles.line9} size={1} />
+            <hr className={styles.line9} />
 
             <div className={styles.flex_row7}>
               <div className={styles.text26}>Хатха-йога </div>
@@ -258,7 +201,7 @@ const DefaultPage = () => {
               </div>
             </div>
 
-            <hr className={styles.line10} size={1} />
+            <hr className={styles.line10}/>
 
             <div className={styles.flex_row7}>
               <p className={styles.text28}>Здоровая спина</p>
@@ -280,7 +223,7 @@ const DefaultPage = () => {
               </div>
             </div>
 
-            <hr className={styles.line10} size={1} />
+            <hr className={styles.line10} />
 
             <div className={styles.flex_row7}>
               <div className={styles.text26}>Пилатес</div>
@@ -302,7 +245,7 @@ const DefaultPage = () => {
               </div>
             </div>
 
-            <hr className={styles.line10} size={1} />
+            <hr className={styles.line10} />
 
             <div className={styles.flex_row9}>
               <div className={styles.text26}>Флоу-йога</div>
@@ -324,7 +267,7 @@ const DefaultPage = () => {
               </div>
             </div>
 
-            <hr className={styles.line10} size={1} />
+            <hr className={styles.line10} />
 
             <div className={styles.flex_row7}>
               <div className={styles.text26}>Стретчинг</div>
@@ -346,7 +289,7 @@ const DefaultPage = () => {
               </div>
             </div>
 
-            <hr className={styles.line10} size={1} />
+            <hr className={styles.line10} />
 
             <div className={styles.flex_row7}>
               <div className={styles.text26}>Пилатес</div>
@@ -368,7 +311,7 @@ const DefaultPage = () => {
               </div>
             </div>
 
-            <hr className={styles.line10} size={1} />
+            <hr className={styles.line10} />
 
             <div className={styles.flex_row10}>
               <div className={styles.text26}>Флоу-йога </div>
@@ -390,7 +333,7 @@ const DefaultPage = () => {
               </div>
             </div>
 
-            <hr className={styles.line10} size={1} />
+            <hr className={styles.line10} />
           </div>
         </div>
       </div>

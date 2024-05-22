@@ -1,0 +1,72 @@
+@use '../../utils.scss' as *;
+@use '../../global.scss' as *;
+
+.flex_row1 {
+    position: absolute;
+    top: 26px;
+    right: 204px;
+    bottom: auto;
+    left: 205px;
+    display: flex;
+    justify-content: space-between;
+    gap: 0px 10px;
+    width: 1191px;
+    height: 50px;
+    @include md {
+      left: 36px;
+    }
+  }
+  .flex_row2 {
+    position: relative;
+    display: flex;
+    align-items: center;
+    gap: 0px 6px;
+    width: 113px;
+    min-width: 0px;
+  }
+  .image9 {
+    position: relative;
+    width: 50px;
+    min-width: 0px;
+    height: 50px;
+  }
+  .info {
+    position: relative;
+    min-width: 0px;
+    font: 300 12px/1.2 "Bookman Old Style", Helvetica, Arial, serif;
+    color: rgb(120, 151, 118);
+  }
+  .flex_row3 {
+    position: relative;
+    display: flex;
+    gap: 0px 26px;
+    margin: 23px 0px 18px;
+    width: 472px;
+    min-width: 0px;
+  }
+  .paragraph11 {
+    position: relative;
+    display: flex;
+    align-items: flex-end;
+    min-width: 0px;
+    font: 500 13px/0.69 "Raleway", Helvetica, Arial, serif;
+    color: rgb(91, 97, 88);
+    letter-spacing: 0.65px;
+    text-decoration: none;
+  }
+  .flex_row4 {
+    position: relative;
+    display: flex;
+    gap: 0px 5px;
+    margin: 11px 0px 21px;
+    width: 161px;
+    min-width: 0px;
+  }
+  .highlight2 {
+    position: relative;
+    margin: 4px 0px 3px;
+    min-width: 0px;
+    font: 500 15px/0.73 "Raleway", Helvetica, Arial, serif;
+    color: rgb(91, 97, 88);
+    letter-spacing: 0.75px;
+  }
