@@ -67,7 +67,8 @@ const Modal = ({ direction, time, handleClose }) => {
                 </div>
                 <button className={styles.btn} onClick={handleResponse}>отправить</button>
                 <div className={styles.flex_row} onClick={handleCheckboxClick}>
-                    <img className={styles.image1} src={isChecked ? '/assets/check.svg' : '/assets/9467570b7e11215c0d1fb9af6727beee.svg'} alt="alt text" onClick={handleCheckboxClick}/>
+                    <img className={styles.image1} src={'/assets/9467570b7e11215c0d1fb9af6727beee.svg'} alt="alt text" onClick={handleCheckboxClick}/>
+                    {isChecked && (<img className={styles.image2} src={'/assets/check.svg'} alt="alt text" onClick={handleCheckboxClick}></img>)}
                     <p className={styles.desc}>Принимаю условия политики конфиденциальности</p>
                 </div>
             </div>

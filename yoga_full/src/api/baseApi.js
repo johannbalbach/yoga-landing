@@ -59,12 +59,23 @@ async function getFeedbacks() {
         return Promise.reject(error);
     });
 }
+async function getFAQ() {
+    return await api.get('FAQ')
+    .then(response =>{
+        return response.data;
+    } )
+    .catch(error => {
+        console.error('Error fetching pricing:', error);
+        return Promise.reject(error);
+    });
+}
 
 const IApi = {
     getDirections: getDirections,
     getPricing: getPricing,
     getDays: getDays,
     getExperts: getExperts,
-    getFeedbacks: getFeedbacks
+    getFeedbacks: getFeedbacks,
+    getFAQ: getFAQ
 };
 export default IApi;

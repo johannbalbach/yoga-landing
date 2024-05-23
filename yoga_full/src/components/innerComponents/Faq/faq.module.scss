@@ -1,0 +1,114 @@
+@use '../../utils.scss' as *;
+@use '../../global.scss' as *;
+
+.flex_row {
+    position: absolute;
+    top: 4640px;
+    right: 200px;
+    bottom: auto;
+    left: 200px;
+    display: flex;
+    justify-content: space-between;
+    gap: 0px 10px;
+    width: 1200px;
+    height: 667px;
+  }
+  .flex_col {
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    gap: 47px 0px;
+    width: 712px;
+    min-width: 0px;
+  }
+  .hero_title6 {
+    position: relative;
+    width: 493px;
+    font: 400 48px/1.29 "New-YorkerC", Helvetica, Arial, serif;
+    color: rgb(120, 151, 118);
+    letter-spacing: 0.48px;
+  }
+  .flex_col1 {
+    position: relative;
+    display: flex;
+    flex-direction: column;
+  }
+  
+  .flex_row1 {
+    position: relative;
+    display: flex;
+    gap: 0px 24px;
+    margin: 20px 0px 0px;
+  }
+  .image46 {
+    position: relative;
+    margin: 0px 0px 69px;
+    width: 28px;
+    min-width: 0px;
+    height: 28px;
+    transition: 1s;
+  }
+  .flex_col2 {
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    gap: 6px 0px;
+    width: 601px;
+    min-width: 0px;
+  }
+  .medium_title1 {
+    position: relative;
+    font: 600 24px/1.29 "Raleway", Helvetica, Arial, serif;
+    color: rgb(91, 97, 88);
+    transition: 1s;
+  }
+  .highlight1 {
+    position: relative;
+    font: 400 16px/1.29 "Raleway", Helvetica, Arial, serif;
+    color: rgb(91, 97, 88);
+    transition: 1s;
+  }
+  .line101 {
+    position: relative;
+    margin: 31px 0px 0px;
+    width: 712px;
+    height: 1px;
+    min-height: 1px;
+    background-color: rgb(203, 200, 193);
+  }
+  .flex_row2 {
+    position: relative;
+    display: flex;
+    align-items: center;
+    gap: 0px 24px;
+    margin: 20px 0px 0px;
+  }
+  .image461 {
+    position: relative;
+    width: 28px;
+    min-width: 0px;
+    height: 28px;
+    transition: 1s;
+  }
+  .highlight5 {
+    position: relative;
+    min-width: 0px;
+    font: 400 16px/0.68 "Raleway", Helvetica, Arial, serif;
+    color: rgb(91, 97, 88);
+    transition: 1s;
+  }
+  .line102 {
+    position: relative;
+    margin: 12px 0px 0px;
+    width: 712px;
+    height: 1px;
+    min-height: 1px;
+    background-color: rgb(203, 200, 193);
+  }
+  .image75 {
+    position: relative;
+    margin: 172px 0px 0px;
+    width: 407px;
+    min-width: 0px;
+    border-radius: 203.5px 203.5px 0px 0px;
+  }
