@@ -186,16 +186,28 @@
   height: 179px;
 }
 .content_box {
-  position: relative;
-  top: 9px;
-  right: 200px;
-  display: flex;
-  flex-direction: column;
-  width: fit-content;
-  height: fit-content;
+  position: absolute;
+  top: 30px;
+  left: 1200px;
+  min-width: 285px;
   background-color: rgb(120, 151, 118);
+  justify-content: center;
+  text-align: center;
+  transition: 1s;
+  border-style: none;
   border-radius: 27.5px 27.5px 27.5px 27.5px;
+  padding: 0px 8px 0px 8px;
 }
+.content_box:hover{
+  border-style: solid;
+  border-color: rgb(120, 151, 118);
+  
+  background-color: rgb(254, 251, 247);
+}
+.content_box:hover h5{
+  color: rgb(120, 151, 118);;
+}
+
 .highlight {
   position: relative;
   margin: 22px 0px 22px 19.58%;

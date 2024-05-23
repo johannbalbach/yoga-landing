@@ -103,9 +103,9 @@ const Feedback = () => {
             </div>
 
 
-            <div className={styles.content_box}>
-                <h5 className={styles.highlight}>оставить отзыв</h5>
-            </div>
+            <button className={styles.content_box}>
+                <h5 className={styles.highlight} style={{alignSelf: 'center'}}>оставить отзыв</h5>
+            </button>
 
             <div className={styles.image}>
                 <div className={styles.arrow_row1}>
