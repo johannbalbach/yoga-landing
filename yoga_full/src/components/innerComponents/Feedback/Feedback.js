@@ -35,24 +35,8 @@ const Feedback = () => {
         };
     
         fetchData();
-    }, []);
+        }, []);
 
-    useEffect(() => {
-        const updateCarouselShift = () => {
-            const shift = -(currentFeedbackIndex * 100);
-            document.querySelector(`.${styles.content_row}`).style.transform = `translateX(${shift}%)`;
-        };
-
-        updateCarouselShift(); // вызываем при первом рендере
-
-        // обновляем при изменении currentFeedbackIndex
-        window.addEventListener('resize', updateCarouselShift);
-
-        return () => {
-            window.removeEventListener('resize', updateCarouselShift);
-        };
-    }, [currentFeedbackIndex]);
-    
     return (
         <div id="Feedback" className={styles.root}>
             <div className={styles.anchor4}> </div>
@@ -82,6 +66,7 @@ const Feedback = () => {
                                     <div className={styles.circle1}>
                                         <img className={styles.image6} src={`/assets/${feedback.svg}`} alt="alt text" />
                                     </div>
+                                    {/* <div className={styles.rect}></div> */}
                                     <img className={styles.image8} src={'/assets/flower4.svg'} alt="alt text" />
                                 </div>
                             </>
