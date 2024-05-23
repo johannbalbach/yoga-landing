@@ -2,142 +2,138 @@
 @use '../../global.scss' as *;
 
 .flex_row3 {
-    position: absolute;
-    top: 3092px;
-    right: 0px;
-    bottom: auto;
-    left: 200px;
-    display: flex;
-    justify-content: space-between;
-    gap: 0px 10px;
-    width: 1400px;
-    height: 551px;
-  }
-  .hero_title62 {
-    position: relative;
-    width: 82.58%;
-    font: 400 48px/1.29 "New-YorkerC", Helvetica, Arial, serif;
-    color: rgb(120, 151, 118);
-    letter-spacing: 0.48px;
-  }
-  .flex_row4 {
-    position: relative;
-    display: flex;
-    gap: 0px 20px;
-    transition: 1s;
-  }
-  .image44 {
-    position: relative;
-    width: 387px;
-    min-width: 0px;
-    border-radius: 189.5px 0px 0px 0px;
-  }
-  .content_box1 {
-    position: relative;
-    display: flex;
-    flex-direction: column;
-    width: 305px;
-    min-width: 0px;
-    outline: 1px solid rgb(203, 201, 193);
-    outline-offset: -1px;
-    transition: 1s;
-  }
-  .flex_col4 {
-    position: relative;
-    display: flex;
-    flex-direction: column;
-    gap: 36px 0px;
-    margin: 53px 27px 188px 26px;
-  }
-  .subtitle1 {
-    position: relative;
-    font: 400 20px/0.7 "Raleway", Helvetica, Arial, serif;
-    color: rgb(91, 97, 88);
-  }
-  .text1 {
-    position: relative;
-    font: 400 14px/1.25 "Raleway", Helvetica, Arial, serif;
-    color: rgb(91, 97, 88);
-  }
-  .flex_col5 {
-    position: relative;
-    display: flex;
-    flex-direction: column;
-    width: 607px;
-    min-width: 0px;
-  }
-  .text11 {
-    position: relative;
-    width: 407px;
-    font: 400 14px/1.25 "Raleway", Helvetica, Arial, serif;
-    color: rgb(91, 97, 88);
-  }
-  .flex_row5 {
-    position: relative;
-    display: flex;
-    justify-content: space-between;
-    gap: 0px 10px;
-    margin: 46px 0px 0px;
-  }
-  .flex_col6 {
-    position: relative;
-    display: flex;
-    flex-direction: column;
-    gap: 22px 0px;
-    width: 184px;
-    height: 269px;
-    min-width: 0px;
-  }
-  .image42 {
-    position: relative;
-    width: 100%;
-  }
-  .highlight51 {
-    position: relative;
-    font: 400 16px/0.68 "Raleway", Helvetica, Arial, serif;
-    color: rgb(91, 97, 88);
-    opacity: 0.6;
-  }
-  .image43 {
-    position: relative;
-    margin: 0px 0px 0px 1px;
-    width: calc(100% - 1px);
-  }
-  .highlight52 {
-    position: relative;
-    margin: 0px 34px 0px 0px;
-    font: 400 16px/0.68 "Raleway", Helvetica, Arial, serif;
-    color: rgb(91, 97, 88);
-    opacity: 0.6;
-  }
-  .flex_col7 {
-    position: relative;
-    display: flex;
-    flex-direction: column;
-    gap: 22px 0px;
-    width: 175px;
-    min-width: 0px;
-  }
-  .image431 {
-    position: relative;
-    width: 100%;
-  }
-  .image35 {
-    position: relative;
-    margin: 76px 0px 0px;
-    width: 407px;
-  }
-.navigation_row {
-    position: absolute;
-    left: 17%;
-    right: 20.9%;
-    top: 94%;
-    bottom: 2.62%;
-  }
+  position: absolute;
+  top: 3092px;
+  right: 0px;
+  bottom: auto;
+  left: 200px;
+  display: flex;
+  justify-content: space-between;
+  gap: 0px 10px;
+  width: 1400px;
+  height: 551px;
+}
 
-.arrow_row{
-    position: relative;
-    width: 76px;
-    height: 34px;
-    top: 18.5%;
-  }
+.hero_title62 {
+  position: relative;
+  width: 82.58%;
+  font: 400 48px/1.29 "New-YorkerC", Helvetica, Arial, serif;
+  color: rgb(120, 151, 118);
+  letter-spacing: 0.48px;
+}
+
+.flex_row4 {
+  position: relative;
+  display: flex;
+  gap: 0px 20px;
+  transition: 1s;
+}
+
+.image44 {
+  position: relative;
+  width: 387px;
+  min-width: 0px;
+  border-radius: 189.5px 0px 0px 0px;
+}
+
+.content_box1 {
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  width: 305px;
+  min-width: 0px;
+  outline: 1px solid rgb(203, 201, 193);
+  outline-offset: -1px;
+  transition: 1s;
+}
+
+.flex_col4 {
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  gap: 36px 0px;
+  margin: 53px 27px 188px 26px;
+}
+
+.subtitle1 {
+  position: relative;
+  font: 400 20px/0.7 "Raleway", Helvetica, Arial, serif;
+  color: rgb(91, 97, 88);
+}
+
+.text1 {
+  position: relative;
+  font: 400 14px/1.25 "Raleway", Helvetica, Arial, serif;
+  color: rgb(91, 97, 88);
+}
+
+.flex_col5 {
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  width: 607px;
+  min-width: 0px;
+}
+
+.text11 {
+  position: relative;
+  width: 407px;
+  font: 400 14px/1.25 "Raleway", Helvetica, Arial, serif;
+  color: rgb(91, 97, 88);
+}
+
+.flex_row5 {
+  position: relative;
+  display: flex;
+  justify-content: space-between;
+  gap: 0px 10px;
+  margin: 46px 0px 0px;
+}
+
+.flex_col6 {
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  gap: 22px 0px;
+  width: 184px;
+  height: 269px;
+  min-width: 0px;
+  transition: 1s;
+}
+
+.image42 {
+  position: relative;
+  width: 100%;
+}
+
+.highlight51 {
+  position: relative;
+  font: 400 16px/0.68 "Raleway", Helvetica, Arial, serif;
+  color: rgb(91, 97, 88);
+  opacity: 0.6;
+}
+
+.navigation_row {
+  position: absolute;
+  left: 17%;
+  right: 20.9%;
+  top: 94%;
+  bottom: 2.62%;
+  transition: width 1s ease-in-out;
+}
+
+.arrow_row {
+  position: relative;
+  width: 76px;
+  height: 34px;
+  top: 18.5%;
+}
+
+// Добавляем стили для анимации исчезновения и появления
+.fadeOut {
+  opacity: 0;
+}
+
+.fadeIn {
+  opacity: 1;
+}
