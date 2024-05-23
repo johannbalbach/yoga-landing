@@ -37,7 +37,7 @@
     left: 197px;
     display: flex;
     flex-direction: column;
-    width: 715px;
+    width: 784px;
     height: 650px;
   }
 .hero_title63 {
@@ -86,25 +86,46 @@
 .text21, .text22 {
     position: relative;
     display: flex;
-    justify-content: center;
-    width: 57px;
-    height: 10px;
+    justify-content: flex-start;
+    align-items: flex-start;
+    width: 70px;
+    height: 30px;
     font: 400 14px/0.71 "Raleway", Helvetica, Arial, serif;
     color: rgb(91, 97, 88);
-    text-align: center;
+    text-align: left;
+    transition: 1s;
 }
 
 .text22 {
-    color: rgba(120, 151, 118, 1);
+  color: rgba(120, 151, 118, 1);
+  opacity: 1;
+  top: -10px;
+}
+
+.flex_col11:hover .text21 {
+  color: rgba(120, 151, 118, 1);
+  opacity: 0.6;
+  top: -10px;
 }
   
-.line8 {
-    position: relative;
+.line8, .line11 {
+    position: absolute;
     width: 90px;
     height: 2px;
     min-height: 2px;
     background-color: rgb(120, 151, 118);
+    opacity: 1;
+    transition: 1s;
   }
+
+.line11{
+  opacity: 0;
+}
+
+.flex_col11:hover .line11 {
+  opacity: 0.5;
+}
+
 
 .flex_col11 {
     position: relative;
@@ -112,9 +133,6 @@
     flex-direction: column;
     gap: 20px 0px;
     margin: 0px 0px 0px 3px;
-    align-items: center;
-    justify-items: center;
-    align-self: stretch;
   }
 .line9 {
     position: relative;
@@ -126,7 +144,7 @@
 
 .flex_row7 {
     width: 712px;
-    height: 18px;
+    height: 22px;
     display: flex;
     justify-content: space-between;
 }
@@ -136,6 +154,7 @@
     font: 400 14px/1 "Raleway", Helvetica, Arial, serif;
     color: rgb(91, 97, 88);
     text-align: center;
+    opacity: 1;
 }
 .text27 {
     flex: 1;
@@ -158,4 +177,13 @@
     margin-top: 21px;
     margin-bottom: 21px;
     background-color: rgb(203, 200, 193);
+}
+.image7:hover svg{
+  fill: rgba(120, 151, 118, 1);
+  transition: 0.3s;
+}
+
+.image7:hover svg path{
+  stroke: rgba(120, 151, 118, 1);
+  transition: 0.3s;
 }

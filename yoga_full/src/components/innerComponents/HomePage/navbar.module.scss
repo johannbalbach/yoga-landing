@@ -53,7 +53,14 @@
     color: rgb(91, 97, 88);
     letter-spacing: 0.65px;
     text-decoration: none;
+    opacity: 1;
   }
+  .paragraph11:hover {
+    color: rgba(120, 151, 118, 1);
+    top: 3px;
+    transition: 1s;
+  }
+
   .flex_row4 {
     position: relative;
     display: flex;

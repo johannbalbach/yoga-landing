@@ -1,0 +1,216 @@
+@use "../../utils" as *;
+@use "../../global" as *;
+
+.root {
+    position: absolute;
+    width: 1600px;
+    height: 740px;
+    left: 1px;
+    top: 3772px;
+}
+.anchor4 {
+    position: absolute;
+    top: 3772px;
+    left: 700px; 
+  }
+.text {
+  position: relative;
+  font: 400 14px/0.71 "Raleway", Helvetica, Arial, serif;
+  color: rgb(91, 97, 88);
+}
+.line3 {
+  position: relative;
+  width: 82px;
+  height: 2px;
+  min-height: 2px;
+  background-color: rgb(120, 151, 118);
+  opacity: 1;
+}
+.paragraph {
+  display: -webkit-box;
+  font: 400 14px/1.25 "Raleway", Helvetica, Arial, serif;
+  color: rgb(91, 97, 88);
+  -webkit-box-orient: vertical;
+  -webkit-line-clamp: 7;
+  overflow: hidden;
+}
+.paragraph_box {
+  position: relative;
+}
+.flex_row {
+  position: relative;
+  display: flex;
+  justify-content: space-between;
+  gap: 0px 10px;
+  width: 97.13%;
+}
+.text1 {
+  position: relative;
+  min-width: 0px;
+  font: 500 14px/1.25 "Raleway", Helvetica, Arial, serif;
+  color: rgb(91, 97, 88);
+  text-decoration: underline;
+}
+.image4 {
+  position: absolute;
+  top: -60px;
+  left: 82px;
+  width: 120px;
+  height: 120px;
+}
+.content_row {
+    position: relative;
+    top: 242px;
+    display: flex;
+    flex-direction: row;
+    width: 200%;
+    left: -140px;
+}
+.content_box3, .content_box1 {
+    position: relative;
+    background: var(--src) center center / 100% 100% no-repeat;
+    margin: 15px 15px 0px 0px;
+}
+.content_box3 {
+    width: 285px;
+    height: 390px;
+    outline: 1px solid rgb(203, 201, 193);
+    outline-offset: -1px;
+}
+.content_box1 {
+    width: 347px;
+    height: 442px;
+    background-color: rgb(120, 151, 118);
+  }
+
+.image6 {
+  position: absolute;
+  top: -65px;
+  left: 130px;
+  width: 130px;
+  height: 130px;
+}
+.flex_col2 {
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 18px 0px;
+  margin: 95px 23px 50px 24px;
+}
+.flex_col3 {
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 24px 0px;
+  width: 100%;
+}
+.subtitle {
+  position: relative;
+  font: 400 20px/0.7 "Raleway", Helvetica, Arial, serif;
+  color: rgb(254, 251, 247);
+}
+.line4 {
+  position: relative;
+  width: 82px;
+  height: 2px;
+  min-height: 2px;
+  background-color: rgb(254, 251, 247);
+  opacity: 1;
+}
+.paragraph1 {
+  position: relative;
+  font: 400 14px/1.25 "Raleway", Helvetica, Arial, serif;
+  color: rgb(254, 251, 247);
+}
+.flex_row1 {
+  position: relative;
+  display: flex;
+  justify-content: space-between;
+  width: 100%;
+}
+.text21 {
+  position: relative;
+  min-width: 0px;
+  font: 500 14px/1.25 "Raleway", Helvetica, Arial, serif;
+  color: rgb(254, 251, 247);
+  text-decoration: underline;
+}
+.text22 {
+  position: relative;
+  min-width: 0px;
+  font: 500 14px/1.25 "Raleway", Helvetica, Arial, serif;
+  color: rgb(254, 251, 247);
+}
+.image8 {
+  position: absolute;
+  bottom: -21px;
+  left: 102px;
+  width: 177px;
+  height: 179px;
+}
+.content_box {
+  position: relative;
+  top: 9px;
+  right: 200px;
+  display: flex;
+  flex-direction: column;
+  width: fit-content;
+  height: fit-content;
+  background-color: rgb(120, 151, 118);
+  border-radius: 27.5px 27.5px 27.5px 27.5px;
+}
+.highlight {
+  position: relative;
+  margin: 22px 0px 22px 19.58%;
+  width: 121px;
+  font: 500 15px/0.73 "Raleway", Helvetica, Arial, serif;
+  color: rgb(254, 251, 247);
+  letter-spacing: 0.75px;
+}
+.image {
+  position: absolute;
+  bottom: 0px;
+  left: 200px;
+  width: 1200px;
+  height: 34px;
+}
+.hero_title {
+  position: absolute;
+  top: 9px;
+  left: 197px;
+  width: 511px;
+  height: 125px;
+  font: 400 48px/1.29 "New-YorkerC", Helvetica, Arial, serif;
+  color: rgb(120, 151, 118);
+  letter-spacing: 0.48px;
+}
+.navigation_row {
+    position: absolute;
+    left: 22.22%;
+    right: 20.9%;
+    top: 87.23%;
+    bottom: 2.62%;
+    width: 40%;
+  }
+.arrow_row1 {
+    position: absolute;
+    width: 76px;
+    height: 34px;
+    left: 15.22%;
+    right: 20.9%;
+    top: 44.23%;
+    bottom: 2.62%;
+  }
+.rect{
+    position: absolute;
+    top: -90px;
+    left: 52px;
+    width: 180px;
+    height: 180px;
+    background-color:rgb(254, 251, 247);
+    border-radius: 50%;
+    outline: 1px solid rgb(203, 201, 193);
+    outline-offset: -1px;
+}

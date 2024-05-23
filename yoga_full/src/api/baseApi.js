@@ -38,9 +38,33 @@ async function getDays() {
     });
 }
 
+async function getExperts() {
+    return await api.get('experts')
+    .then(response =>{
+        return response.data;
+    } )
+    .catch(error => {
+        console.error('Error fetching pricing:', error);
+        return Promise.reject(error);
+    });
+}
+
+async function getFeedbacks() {
+    return await api.get('feedbacks')
+    .then(response =>{
+        return response.data;
+    } )
+    .catch(error => {
+        console.error('Error fetching pricing:', error);
+        return Promise.reject(error);
+    });
+}
+
 const IApi = {
     getDirections: getDirections,
     getPricing: getPricing,
-    getDays: getDays
+    getDays: getDays,
+    getExperts: getExperts,
+    getFeedbacks: getFeedbacks
 };
 export default IApi;

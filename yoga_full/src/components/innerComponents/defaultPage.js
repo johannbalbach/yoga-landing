@@ -6,69 +6,6 @@ import styles from './styles.module.scss';
 const DefaultPage = () => {
   return (
     <>
-      <div id="Experts">
-        <div className={styles.flex_row3}>
-          <div className={styles.flex_col}>
-            <h1 className={styles.hero_title62}>Эксперты в области тела и разума</h1>
-
-            <div className={styles.flex_row4}>
-              <img className={styles.image44} src={'/assets/standing_with_yoga_mat.png'} alt="alt text" />
-
-              <div className={styles.content_box1}>
-                <div className={styles.flex_col4}>
-                  <h3 className={styles.subtitle1}>Ирина Беляева</h3>
-                  <p className={styles.text1}>
-                    Йога-инструктор с образованием <br />
-                    по специальности “Физическая культура и спорт”, имеет сертификат международного уровня и пять лет
-                    практического опыта.
-                    <br />
-                  </p>
-                </div>
-              </div>
-            </div>
-          </div>
-
-          <div className={styles.flex_col5}>
-            <p className={styles.text11}>
-              Наши инструктора сочетают свои знания и опыт, чтобы создать эффективные и интересные занятия, которые
-              помогут вам укрепить мышечный корсет,  достичь гибкости, улучшить осанку и физическую форму.{' '}
-            </p>
-
-            <div className={styles.flex_row5}>
-              <div className={styles.flex_col6}>
-                <img className={styles.image42} src={'/assets/holding_yoga_mat_1.png'} alt="alt text" />
-                <h5 className={styles.highlight51}>Анна Беляева</h5>
-              </div>
-
-              <div className={styles.flex_col6}>
-                <img className={styles.image43} src={'/assets/holding_yoga_mat_2.png'} alt="alt text" />
-                <h5 className={styles.highlight52}>Екатерина Волкова</h5>
-              </div>
-
-              <div className={styles.flex_col7}>
-                <img className={styles.image431} src={'/assets/holding_yoga_mat_3.png'} alt="alt text" />
-                <h5 className={styles.highlight51}>Мария Смирнова</h5>
-              </div>
-            </div>
-
-            <img className={styles.image35} src={'/assets/6b858efc000a486d2679ec522408f562.svg'} alt="alt text" />
-          </div>
-        </div>
-
-      </div>
-
-      <div id="Feedback">
-        <div  className={styles.anchor4}> </div>
-        <div className={styles.content_box2}>
-          <h5 className={styles.highlight3}>оставить отзыв</h5>
-        </div>
-        <div className={styles.flex_col3}>
-          <h1 className={styles.hero_title61}>Наши довольные клиенты</h1>
-          <img className={styles.decorator7} src={'/assets/instructor_profiles.png'} alt="alt text" />
-          <img className={styles.image45} src={'/assets/4ce56ddff1a036a1110d680e7d97668b.svg'} alt="alt text" />
-        </div>
-      </div>
-
       <div id="FAQ" >
         <div className={styles.flex_row}>
           <div className={styles.flex_col}>

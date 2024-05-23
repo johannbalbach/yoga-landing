@@ -1,0 +1,166 @@
+@use "../../utils" as *;
+@use "../../global" as *;
+
+.overlay {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100vw;
+  height: 100vh;
+  background-color: rgba(0, 0, 0, 0.5);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  z-index: 1000;
+}
+.root {
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  background-color: rgb(254, 251, 247);
+  outline: 1px solid rgb(203, 200, 193);
+  outline-offset: -1px;
+  overflow: hidden;
+  width: 33%; /* Занимает треть экрана */
+  max-width: 400px; /* Ограничивает максимальную ширину */
+  padding: 20px;
+  border-radius: 8px;
+}
+.modalResponse {
+  padding: 20px;
+  border-radius: 8px;
+}
+.image {
+  position: absolute;
+  top: 32px;
+  right: 32px;
+  width: 15px;
+  height: 15px;
+}
+.flex_col {
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin: 56px auto 49px;
+  width: 71.39%;
+}
+.flex_col1 {
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 93.8%;
+}
+.medium_title {
+  position: relative;
+  display: flex;
+  justify-content: center;
+  width: 77.09%;
+  font: 400 24px/1.25 "New-YorkerC", Helvetica, Arial, serif;
+  color: rgb(120, 151, 118);
+  text-align: center;
+  letter-spacing: 0.17px;
+}
+.text {
+  position: relative;
+  margin: 28px 0px 0px;
+  width: 100%;
+  font: 400 14px/1.14 "Raleway", Helvetica, Arial, serif;
+  color: rgb(91, 97, 88);
+}
+.input {
+  width: 100%;
+  padding: 8px;
+  font: 400 14px/1.14 "Raleway", Helvetica, Arial, serif;
+  color: rgb(91, 97, 88);
+  border: 1px solid rgb(203, 200, 193);
+  border-radius: 4px;
+  margin-bottom: 16px;
+}
+
+.line {
+  position: relative;
+  margin: 4px 0px 0px;
+  width: 226px;
+  height: 1px;
+  min-height: 1px;
+  background-color: rgb(203, 200, 193);
+}
+.text1 {
+  position: relative;
+  margin: 32px 0px 0px;
+  width: 100%;
+  font: 400 14px/1.14 "Raleway", Helvetica, Arial, serif;
+  border-style: none;
+  background-color: rgb(254, 251, 247);
+}
+.line1 {
+  position: relative;
+  margin: 3px 0px 0px;
+  width: 226px;
+  height: 1px;
+  min-height: 1px;
+  background-color: rgb(203, 200, 193);
+}
+.btn {
+  position: relative;
+  display: flex;
+  justify-content: center;
+  margin: 31px 2px 0px 0px;
+  width: 240px;
+  max-width: 100%;
+  font: 500 15px/0.73 "Raleway", Helvetica, Arial, serif;
+  color: rgb(254, 251, 247);
+  text-align: center;
+  background-color: rgb(120, 151, 118);
+  border-radius: 27.5px 27.5px 27.5px 27.5px;
+  padding: 22px 8px 22px 8px;
+  letter-spacing: 0.75px;
+}
+.flex_row {
+  position: relative;
+  display: flex;
+  gap: 0px 13px;
+  margin: 24px 0px 0px;
+  width: 97.11%;
+}
+.image1 {
+  position: relative;
+  margin: 6px 0px 8px;
+  width: 16px;
+  min-width: 0px;
+  height: 16px;
+}
+.desc {
+  position: relative;
+  width: 206px;
+  min-width: 0px;
+  font: 400 12px/1.25 "Raleway", Helvetica, Arial, serif;
+  color: rgb(91, 97, 88);
+}
+.subtitle {
+  position: relative;
+  display: flex;
+  justify-content: center;
+  width: 95.98%;
+  font: 400 20px/1.25 "New-YorkerC", Helvetica, Arial, serif;
+  color: rgb(120, 151, 118);
+  text-align: center;
+  letter-spacing: 0.14px;
+}
+.paragraph {
+  position: relative;
+  display: flex;
+  justify-content: center;
+  font: 400 14px/1.14 "Raleway", Helvetica, Arial, serif;
+  color: rgb(91, 97, 88);
+  text-align: center;
+}
+.decorator {
+  position: absolute;
+  bottom: -81px;
+  left: -84px;
+  width: 291px;
+  height: 291px;
+}
