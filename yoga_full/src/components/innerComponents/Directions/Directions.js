@@ -1,4 +1,4 @@
-import React, {useState, useEffect} from 'react';
+import React, {Fragment, useState, useEffect} from 'react';
 import styles from './directions.module.scss';
 import IApi from 'api/baseApi';
 
@@ -68,7 +68,7 @@ const Directions = () => {
                             </div>
                             <div className={styles.arrow}>
                                 <svg width="7" height="12" viewBox="0 0 7 12" fill="none" xmlns="http://www.w3.org/2000/svg">
-                                    <path d="M6.1574 1.00012L1.40031 5.75721C1.35094 5.80659 1.35094 5.88664 1.40031 5.93601L6.1574 10.6931" stroke="#789776" stroke-linecap="round"/>
+                                    <path d="M6.1574 1.00012L1.40031 5.75721C1.35094 5.80659 1.35094 5.88664 1.40031 5.93601L6.1574 10.6931" stroke="#789776" strokeLinecap="round"/>
                                 </svg>
                             </div>
                         </div>
@@ -80,7 +80,7 @@ const Directions = () => {
                             </div>
                             <div className={styles.arrow}>
                                 <svg width="7" height="12" viewBox="0 0 7 12" fill="none" xmlns="http://www.w3.org/2000/svg">
-                                    <path d="M6.1574 1.00012L1.40031 5.75721C1.35094 5.80659 1.35094 5.88664 1.40031 5.93601L6.1574 10.6931" stroke="#789776" stroke-linecap="round"/>
+                                    <path d="M6.1574 1.00012L1.40031 5.75721C1.35094 5.80659 1.35094 5.88664 1.40031 5.93601L6.1574 10.6931" stroke="#789776" strokeLinecap="round"/>
                                 </svg>
                             </div>
                         </div>
@@ -102,12 +102,14 @@ const Directions = () => {
             <div className={styles.flex_col15}>
                 <div className={styles.flex_row24}>
                     {data.map((direction, index) => (
-                        <button
-                            className={selectedDirection === direction ? styles.btn1 : styles.btn2}
-                            onClick={() => handleClick(index)}
-                        >
-                            {direction.name}
-                        </button>
+                        <Fragment key={index}>
+                            <button
+                                className={selectedDirection === direction ? styles.btn1 : styles.btn2}
+                                onClick={() => handleClick(index)}
+                            >
+                                {direction.name}
+                            </button>
+                        </Fragment>
                     ))}
                 </div>
             </div>

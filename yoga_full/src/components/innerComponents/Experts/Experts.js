@@ -1,4 +1,4 @@
-import React, {useState, useEffect} from 'react';
+import React, {Fragment, useState, useEffect} from 'react';
 import styles from './experts.module.scss';
 import IApi from 'api/baseApi';
 
@@ -46,12 +46,12 @@ const Experts = () => {
                     <div className={styles.flex_col}>
                         <h1 className={styles.hero_title62}>Эксперты в области тела и разума</h1>
                         <div className={styles.flex_row4}>
-                            <img className={styles.image44} src={`/assets/${selectedExpert.image}`} alt="alt text" />
+                            <img className={styles.image44} src={`/assets/${selectedExpert.image}`} alt="alt text" style={{transition: '1s'}} />
 
                             <div className={styles.content_box1}>
                                 <div className={styles.flex_col4}>
-                                    <h3 className={styles.subtitle1}>{selectedExpert.name}</h3>
-                                    <p className={styles.text1}>
+                                    <h3 className={styles.subtitle1} style={{transition: '1s'}}>{selectedExpert.name}</h3>
+                                    <p className={styles.text1} style={{transition: '1s'}}>
                                         {selectedExpert.desc}
                                     </p>
                                 </div>
@@ -66,17 +66,17 @@ const Experts = () => {
                         <>
                             <p className={styles.text11}>
                             Наши инструктора сочетают свои знания и опыт, чтобы создать эффективные и интересные занятия, которые
-                            помогут вам укрепить мышечный корсет,  достичь гибкости, улучшить осанку и физическую форму.{' '}
+                            помогут вам укрепить мышечный корсет,  достичь гибкости, улучшить осанку и физическую форму.
                             </p>
 
                             <div className={styles.flex_row5}>
                                 {selectedExpert.background_images.map((item, index) => (
-                                    <>
+                                    <Fragment key={index}>
                                         <div className={styles.flex_col6}>
-                                            <img className={styles.image42} src={`/assets/${item.image}`} alt="alt text" />
-                                            <h5 className={styles.highlight51}>{item.name}</h5>
+                                            <img className={styles.image42} src={`/assets/${item.image}`} alt="alt text" style={{transition: '1s'}}/>
+                                            <h5 className={styles.highlight51} style={{transition: '1s'}}>{item.name}</h5>
                                         </div>
-                                    </>
+                                    </Fragment>
                                 ))}
                             </div>
                         </>
@@ -95,7 +95,7 @@ const Experts = () => {
                             </div>
                             <div className={styles.arrow}>
                                 <svg width="7" height="12" viewBox="0 0 7 12" fill="none" xmlns="http://www.w3.org/2000/svg">
-                                    <path d="M6.1574 1.00012L1.40031 5.75721C1.35094 5.80659 1.35094 5.88664 1.40031 5.93601L6.1574 10.6931" stroke="#789776" stroke-linecap="round"/>
+                                    <path d="M6.1574 1.00012L1.40031 5.75721C1.35094 5.80659 1.35094 5.88664 1.40031 5.93601L6.1574 10.6931" stroke="#789776" strokeLinecap="round"/>
                                 </svg>
                             </div>
                         </div>
@@ -107,7 +107,7 @@ const Experts = () => {
                             </div>
                             <div className={styles.arrow}>
                                 <svg width="7" height="12" viewBox="0 0 7 12" fill="none" xmlns="http://www.w3.org/2000/svg">
-                                    <path d="M6.1574 1.00012L1.40031 5.75721C1.35094 5.80659 1.35094 5.88664 1.40031 5.93601L6.1574 10.6931" stroke="#789776" stroke-linecap="round"/>
+                                    <path d="M6.1574 1.00012L1.40031 5.75721C1.35094 5.80659 1.35094 5.88664 1.40031 5.93601L6.1574 10.6931" stroke="#789776" strokeLinecap="round"/>
                                 </svg>
                             </div>
                         </div>

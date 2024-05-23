@@ -121,6 +121,14 @@
     min-width: 0px;
     height: 40px;
   }
+  .image82:hover svg {
+    fill: #FEFBF7;
+    transition: 0.3s;
+  }
+  .image82:hover svg path {
+    fill: #789776;
+    transition: 1s;
+  }
   .info31 {
     position: relative;
     font: 400 12px/0.75 "Raleway", Helvetica, Arial, serif;

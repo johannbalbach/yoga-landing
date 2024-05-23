@@ -179,7 +179,7 @@
     }
   }
 
-  .btn {
+.btn {
     position: absolute;
     top: 483px;
     right: 806px;
@@ -191,30 +191,32 @@
     background-color: #789776;
     border-radius: 50%;
     border-style: none;
-  }
+    z-index: 1000;
+    opacity: 1;
+}
 
-  .image10 {
+.image10 {
     position: absolute;
-    top: 30px;
-    left: 36px;
+    top: 513px;
+    left: 675px;
     width: 82px;
     height: 70px;
     opacity: 0;
     transition: 1s;
-  }
+    z-index: 1;
+}
 
-  .image10:hover{
-    opacity: 1;
-    color: rgb(120, 151, 118);
-    justify-content: center;
-    transform: scale(4);
-  }
+.btn:hover + .image10 {
+  opacity: 1;
+  transform: scale(5);
+}
 
-  .highlight31 {
-    position: absolute;
-    left: calc(50% - 105px/2);
-    top: calc(50% - 11px/2);
-    font: 500 15px/0.73 "Raleway", Helvetica, Arial, serif;
-    color: rgb(254, 251, 247);
-    letter-spacing: 1px;
-  }
+.highlight31 {
+  position: absolute;
+  left: calc(50% - 105px/2);
+  top: calc(50% - 11px/2);
+  font: 500 15px/0.73 "Raleway", Helvetica, Arial, serif;
+  color: rgb(254, 251, 247);
+  letter-spacing: 1px;
+  z-index: 8;
+}

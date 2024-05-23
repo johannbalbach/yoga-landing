@@ -49,7 +49,7 @@ const Homepage = () => {
                             </div>
                             <div className={styles.arrow}>
                                 <svg width="7" height="12" viewBox="0 0 7 12" fill="none" xmlns="http://www.w3.org/2000/svg">
-                                    <path d="M6.1574 1.00012L1.40031 5.75721C1.35094 5.80659 1.35094 5.88664 1.40031 5.93601L6.1574 10.6931" stroke="#789776" stroke-linecap="round"/>
+                                    <path d="M6.1574 1.00012L1.40031 5.75721C1.35094 5.80659 1.35094 5.88664 1.40031 5.93601L6.1574 10.6931" stroke="#789776" strokeLinecap="round"/>
                                 </svg>
                             </div>
                         </div>
@@ -61,7 +61,7 @@ const Homepage = () => {
                             </div>
                             <div className={styles.arrow}>
                                 <svg width="7" height="12" viewBox="0 0 7 12" fill="none" xmlns="http://www.w3.org/2000/svg">
-                                    <path d="M6.1574 1.00012L1.40031 5.75721C1.35094 5.80659 1.35094 5.88664 1.40031 5.93601L6.1574 10.6931" stroke="#789776" stroke-linecap="round"/>
+                                    <path d="M6.1574 1.00012L1.40031 5.75721C1.35094 5.80659 1.35094 5.88664 1.40031 5.93601L6.1574 10.6931" stroke="#789776" strokeLinecap="round"/>
                                 </svg>
                             </div>
                         </div>
@@ -116,11 +116,10 @@ const Homepage = () => {
                 </h5>
             </div>
 
-            <button className={styles.btn} style={{ '--src': `url(${'/assets/ffa527dfc719e7a24aeee0e1aa12e795.svg'})` }}>
+            <button className={styles.btn}>
                 <h5 className={styles.highlight31}>ЗАПИСАТЬСЯ</h5>
-                <img className={styles.image10} src={'/assets/flower.svg'} alt="alt text" />
             </button>
-
+            <img className={styles.image10} src={'/assets/flower.svg'} alt="alt text" />
         </div>
   );
 }

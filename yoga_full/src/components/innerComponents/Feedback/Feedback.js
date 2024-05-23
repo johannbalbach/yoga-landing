@@ -1,4 +1,4 @@
-import React, {useState, useEffect} from 'react';
+import React, {Fragment, useState, useEffect} from 'react';
 import styles from './feedback.module.scss';
 import IApi from 'api/baseApi';
 
@@ -44,7 +44,7 @@ const Feedback = () => {
 
             <div className={styles.content_row}>
                 {data.map((feedback, index) => (
-                    <>
+                    <Fragment key={index}>
                         {feedback == selectedFeedback ? (
                             <>
                                 <div className={styles.content_box1}>
@@ -93,7 +93,7 @@ const Feedback = () => {
                                     <img className={styles.image4} src={`/assets/${feedback.svg}`} alt="alt text" />
                                 </div>
                             </>)}
-                    </>
+                    </Fragment>
                 ))}
 
             </div>
@@ -113,7 +113,7 @@ const Feedback = () => {
                         </div>
                         <div className={styles.arrow}>
                             <svg width="7" height="12" viewBox="0 0 7 12" fill="none" xmlns="http://www.w3.org/2000/svg">
-                                <path d="M6.1574 1.00012L1.40031 5.75721C1.35094 5.80659 1.35094 5.88664 1.40031 5.93601L6.1574 10.6931" stroke="#789776" stroke-linecap="round"/>
+                                <path d="M6.1574 1.00012L1.40031 5.75721C1.35094 5.80659 1.35094 5.88664 1.40031 5.93601L6.1574 10.6931" stroke="#789776" strokeLinecup="round"/>
                             </svg>
                         </div>
                     </div>
@@ -125,7 +125,7 @@ const Feedback = () => {
                         </div>
                         <div className={styles.arrow}>
                             <svg width="7" height="12" viewBox="0 0 7 12" fill="none" xmlns="http://www.w3.org/2000/svg">
-                                <path d="M6.1574 1.00012L1.40031 5.75721C1.35094 5.80659 1.35094 5.88664 1.40031 5.93601L6.1574 10.6931" stroke="#789776" stroke-linecap="round"/>
+                                <path d="M6.1574 1.00012L1.40031 5.75721C1.35094 5.80659 1.35094 5.88664 1.40031 5.93601L6.1574 10.6931" stroke="#789776" strokeLinecup="round"/>
                             </svg>
                         </div>
                     </div>
