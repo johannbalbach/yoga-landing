@@ -1,15 +1,14 @@
 import axios from 'axios';
 
-const basePath = '../data/';
+const basePath = 'http://localhost:3000/';
 
 const api = axios.create({
     baseURL: basePath
 });
 
-function getDirections() {
-    return api.get('directions.json') // загружаем данные из файла directions.json
+async function getDirections() {
+    return await api.get('directions')
     .then(response => {
-        // Предполагаем, что данные возвращаются в формате JSON
         return response.data;
     })
     .catch(error => {
@@ -18,8 +17,30 @@ function getDirections() {
     });
 }
 
-const IApi = {
-    getDirections: getDirections
-};
+async function getPricing() {
+    return await api.get('pricing')
+    .then(response =>{
+        return response.data;
+    } )
+    .catch(error => {
+        console.error('Error fetching pricing:', error);
+        return Promise.reject(error);
+    });
+}
+async function getDays() {
+    return await api.get('days')
+    .then(response =>{
+        return response.data;
+    } )
+    .catch(error => {
+        console.error('Error fetching pricing:', error);
+        return Promise.reject(error);
+    });
+}
 
+const IApi = {
+    getDirections: getDirections,
+    getPricing: getPricing,
+    getDays: getDays
+};
 export default IApi;

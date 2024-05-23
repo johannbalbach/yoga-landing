@@ -10,6 +10,7 @@
     "axios": "^1.7.2",
     "classnames": "^2.3.2",
     "cra-sass": "^0.0.5",
+    "json-server": "^1.0.0-beta.0",
     "normalize.css": "^8.0.1",
     "prop-types": "^15.8.1",
     "react": "^18.2.0",
@@ -30,7 +31,8 @@
     "start": "react-scripts start",
     "build": "react-scripts build",
     "test": "react-scripts test",
-    "eject": "react-scripts eject"
+    "eject": "react-scripts eject",
+    "start-server": "json-server --watch ./src/data/DATA1.json"
   },
   "eslintConfig": {
     "extends": [

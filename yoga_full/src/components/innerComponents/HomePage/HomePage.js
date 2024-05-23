@@ -37,8 +37,8 @@ const Homepage = () => {
                     </div>
                     
                     <div className={styles.navigation_row}>
-                        <img className={styles.line1} src={'/assets/Status-1.svg'} alt="alt text" style={{ width: `${(currentImageIndex + 1) * 33.33}%` }} />
-                        <img className={styles.line2} src={'/assets/Status.svg'} alt="alt text" style={{ width: `${(3 - currentImageIndex) * 33.33}%` }} />
+                        <div className={styles.line1} style={{ width: `${(currentImageIndex + 1) * 33.33}%` }} />
+                        <div className={styles.line2} style={{ width: `${(3 - currentImageIndex) * 33.33}%` }} />
                     </div>
                     <div className={styles.arrow_row}>
                         <img className={styles.image4} src={'/assets/left.svg'} alt="alt text" onClick={handlePreviousImage} />
@@ -95,12 +95,10 @@ const Homepage = () => {
                 </h5>
             </div>
 
-            <div
-            className={styles.content_box}
-            style={{ '--src': `url(${'/assets/ffa527dfc719e7a24aeee0e1aa12e795.svg'})` }}>
-                <img className={styles.image10} src={'/assets/plant_illustration.png'} alt="alt text" />
+            <button className={styles.btn} style={{ '--src': `url(${'/assets/ffa527dfc719e7a24aeee0e1aa12e795.svg'})` }}>
                 <h5 className={styles.highlight31}>ЗАПИСАТЬСЯ</h5>
-            </div>
+                <img className={styles.image10} src={'/assets/flower.svg'} alt="alt text" />
+            </button>
 
         </div>
   );

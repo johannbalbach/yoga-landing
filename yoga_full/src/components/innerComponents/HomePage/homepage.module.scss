@@ -1,13 +1,6 @@
 @use '../../utils.scss' as *;
 @use '../../global.scss' as *;
 
-.navigation_row {
-    position: absolute;
-    left: 9.22%;
-    right: 20.9%;
-    top: 97.23%;
-    bottom: 2.62%;
-  }
 .flex_col1 {
     position: absolute;
     top: 180px;
@@ -133,44 +126,21 @@
     border-radius: 244px 244px 0px 0px;
   }
 
+.navigation_row {
+    position: absolute;
+    left: 9.22%;
+    right: 20.9%;
+    top: 97.23%;
+    bottom: 2.62%;
+  }
+
 .arrow_row{
     position: relative;
     width: 76px;
     height: 34px;
   }
-.line1 {
-    position: absolute;
-    left: 0%;
-    right: 67.62%;
-    top: 97.23%;
-    bottom: 2.62%;
-  }
-  
-.line2 {
-    position: absolute;
-    left: 0%;
-    right: 20.9%;
-    top: 97.23%;
-    bottom: 2.62%;
-    opacity: 0.5;
-  }
-  
-.image4 {
-    position: relative;
-    left: 0%;
-    right: 55.26%;
-    top: 50%;
-    bottom: 0%;
-  }
-.image5 {
-    position: relative;
-    left: 15%;
-    right: 44.74%;
-    top: 50%;
-    bottom: 0%;
-  }
 
-  .flex_col3 {
+.flex_col3 {
     position: absolute;
     top: 191px;
     right: 821px;
@@ -187,7 +157,7 @@
       width: 530px;
     }
   }
-  .hero_title {
+.hero_title {
     position: relative;
     font: 400 84px/1.2 "New-YorkerC", Helvetica, serif;
     color: rgb(99, 125, 97);
@@ -208,32 +178,42 @@
     }
   }
 
-  .content_box {
+  .btn {
     position: absolute;
     top: 483px;
     right: 806px;
     bottom: auto;
     left: 639px;
-    display: flex;
-    flex-direction: column;
+    font: 500 15px/0.73 "Raleway";
     width: 155px;
     height: 155px;
-    background: var(--src) center center / 100% 100% no-repeat;
     background-color: #789776;
     border-radius: 50%;
+    border-style: none;
   }
+
   .image10 {
     position: absolute;
     top: 30px;
     left: 36px;
     width: 82px;
     height: 70px;
+    opacity: 0;
+    transition: 1s;
   }
+
+  .image10:hover{
+    opacity: 1;
+    color: rgb(120, 151, 118);
+    justify-content: center;
+    transform: scale(4);
+  }
+
   .highlight31 {
-    position: relative;
-    margin: 72px 0px 72px 25px;
-    width: 88px;
+    position: absolute;
+    left: calc(50% - 105px/2);
+    top: calc(50% - 11px/2);
     font: 500 15px/0.73 "Raleway", Helvetica, Arial, serif;
     color: rgb(254, 251, 247);
-    letter-spacing: 0.75px;
+    letter-spacing: 1px;
   }

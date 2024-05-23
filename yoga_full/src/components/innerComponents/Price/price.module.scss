@@ -1,0 +1,199 @@
+.anchor2 {
+    position: absolute;
+    top: 1752px;
+    left: 700px; 
+  }
+
+.grid {
+    position: absolute;
+    top: 1933px;
+    right: 197px;
+    bottom: auto;
+    left: 566px;
+    display: grid;
+    align-content: start;
+    row-gap: 48px;
+    column-gap: 24px;
+    width: 837px;
+    height: 252px;
+    grid-template-columns: repeat(2, minmax(0, 1fr));
+  }
+.item {
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    grid-row: span 1;
+    grid-column: span 1;
+    width: 407px;
+  }
+.flex_row11 {
+    position: relative;
+    display: flex;
+    justify-content: space-between;
+    margin-top: 11px;
+    gap: 0px 10px;
+    width: 97.99%;
+  }
+.flex_row12 {
+    position: relative;
+    display: flex;
+    gap: 0px 9px;
+    width: 99px;
+    min-width: 0px;
+  }
+.highlight11 {
+    position: relative;
+    width: fit-content;
+    height: fit-content;
+    font: 400 16px/1.29 "Raleway";
+    color: rgb(91, 97, 88);
+    white-space: break-spaces;
+  }
+  
+.hero_title3 {
+    position: relative;
+    margin: 1px 0px 11px;
+    padding-right: 5px;
+    width: auto; 
+    font: 400 45px/0.71 "Raleway", Helvetica, Arial, serif;
+    color: rgb(91, 97, 88);
+  }
+
+.highlight6 {
+    position: relative;
+    margin: 19px 0px 0px;
+    min-width: 0px;
+    font: 400 16px/0.68 "Raleway", Helvetica, Arial, serif;
+    color: rgb(120, 151, 118);
+  }
+.line61 {
+    position: relative;
+    margin: 0px 0px 0px 0px;
+    padding: auto;
+    width: 380px;
+    height: 1px;
+    min-height: 1px;
+    background-color: rgb(152, 149, 139);
+    opacity: 0.5;
+  }
+.highlight7 {
+    position: relative;
+    width: 135px;
+    min-width: 0px;
+    font: 400 16px/1.29 "Raleway", Helvetica, Arial, serif;
+    color: rgb(120, 151, 118);
+  }
+.btn {
+    position: absolute;
+    top: 2120px;
+    right: 1160px;
+    left: 200px;
+    width: 240px;
+    height: 55px;
+    font: 500 15px/0.73 "Raleway";
+    color: rgb(254, 251, 247);
+    text-align: center;
+    background-color: rgb(120, 151, 118);
+    border-radius: 27.5px 27.5px 27.5px 27.5px;
+    padding: 22px 8px 22px 8px;
+    border-style: none;
+    transition: 0.5s ease;
+    z-index: 12;
+  }
+.btn:hover{
+    border-style: solid;
+    border-color: rgb(120, 151, 118);
+    color: rgb(120, 151, 118);
+    background-color: rgb(254, 251, 247);
+}
+.flex_col12 {
+    position: absolute;
+    top: 1933px;
+    right: 1278px;
+    bottom: auto;
+    left: 201px;
+    display: flex;
+    flex-direction: column;
+    gap: 18px 0px;
+    width: 121px;
+    height: 97px;
+  }
+.hero_title21 {
+    font: 1em/1.17 "Raleway";
+    color: rgb(91, 97, 88);
+    letter-spacing: 0.31px;
+  }
+.hero_title21_box {
+    position: relative;
+  }
+.flex_row21 {
+    position: relative;
+    display: flex;
+    gap: 0px 7px;
+  }
+.big_title2 {
+    position: relative;
+    min-width: 0px;
+    font: 400 36px/0.72 "Raleway", Helvetica, Arial, serif;
+    color: rgb(91, 97, 88);
+  }
+.highlight53 {
+    position: relative;
+    margin: 15px 0px 0px;
+    min-width: 0px;
+    font: 400 16px/0.68 "Raleway", Helvetica, Arial, serif;
+    color: rgb(91, 97, 88);
+  }
+.hero_title64 {
+    position: absolute;
+    top: 1761px;
+    right: 870px;
+    bottom: auto;
+    left: 200px;
+    width: 530px;
+    height: 125px;
+    font: 400 48px/1.29 "New-YorkerC", Helvetica, Arial, serif;
+    color: rgb(120, 151, 118);
+    letter-spacing: 0.48px;
+  }
+.flex_col13 {
+    position: absolute;
+    top: 1761px;
+    right: 225px;
+    bottom: auto;
+    left: 992px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 17px 0px;
+    width: 383px;
+    height: 80px;
+  }
+.text12_box {
+    position: relative;
+  }
+
+.text12 {
+    font: 400 14px/1.25 "Raleway", Helvetica, Arial, serif;
+    color: rgb(91, 97, 88);
+  }
+
+.decorator4 {
+    position: absolute;
+    top: 2027px;
+    right: 1289px;
+    bottom: auto;
+    left: -185px;
+    width: 496px;
+    height: 529px;
+  }
+.decorator6 {
+    position: absolute;
+    top: 2020px;
+    right: -112px;
+    bottom: auto;
+    left: 1163px;
+    width: 549px;
+    height: 549px;
+  }

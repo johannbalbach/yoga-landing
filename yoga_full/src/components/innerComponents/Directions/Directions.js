@@ -4,20 +4,36 @@ import IApi from 'api/baseApi';
 
 const Directions = () => {
     const [selectedDirection, setSelectedDirection] = useState('');
-    const [data, setData] = useState('')
+    const [data, setData] = useState([])
+    const [currentImageIndex, setCurrentImageIndex] = useState(0);
 
-    const handleClick = (direction) => {
-        setSelectedDirection(direction); // обновляем состояние при клике на направление
+    const handleClick = (index) => {
+        setSelectedDirection(data[index]);
+        setCurrentImageIndex(index);
+    };
+    const handleNextImage = () => {
+        const index = (currentImageIndex + 1) % data.length;
+
+        setCurrentImageIndex(index);
+        setSelectedDirection(data[index]);
+    };
+
+    const handlePreviousImage = () => {
+        const index = (currentImageIndex - 1 + data.length) % data.length;
+
+        setCurrentImageIndex(index);
+        setSelectedDirection(data[index]);
     };
 
     useEffect(() => {
         const fetchData = async () => {
-          const data = IApi.getDirections();
+          const data = await IApi.getDirections();
 
           console.log(data)
           setData(data);
 
           if (data != null){
+            setCurrentImageIndex(0);
             setSelectedDirection(data[0]);
           }
         };
@@ -43,7 +59,14 @@ const Directions = () => {
                     </div>
 
                     <h5 className={styles.highlight13}>{selectedDirection.description}</h5>
-                    <img className={styles.image351} src={'/assets/735a0b778f870c110a5aace5bbc4d08a.svg'} alt="alt text" />
+                    <div className={styles.arrow_row}>
+                        <img className={styles.image4} src={'/assets/left.svg'} alt="alt text" onClick={handlePreviousImage} />
+                        <img className={styles.image5} src={'/assets/right.svg'} alt="alt text" onClick={handleNextImage}/>
+                   </div>
+                   <div className={styles.navigation_row}>
+                        <div className={styles.line1} style={{ width: `${(currentImageIndex + 1) * 33.33}%` }} />
+                        <div className={styles.line2} style={{ width: `${(data.length) * 33.33}%` }} />
+                    </div>
                 </div>
             )}
 
@@ -55,20 +78,16 @@ const Directions = () => {
             </div>
 
             <div className={styles.flex_col15}>
-            <div className={styles.flex_row24}>
-                <button className={styles.btn1}>Кундалини-йога </button>
-                <button className={styles.text13}>Хатха-йога </button>
-            </div>
-
-            <div className={styles.flex_row24}>
-                <button className={styles.text13}>Пилатес</button>
-                <button className={styles.text13}>Здоровая спина </button>
-            </div>
-
-            <div className={styles.flex_row24}>
-                <button className={styles.text13}>Флоу-йога </button>
-                <button className={styles.text13}>Стретчинг</button>
-            </div>
+                <div className={styles.flex_row24}>
+                    {data.map((direction, index) => (
+                        <button
+                            className={selectedDirection === direction ? styles.btn1 : styles.btn2}
+                            onClick={() => handleClick(index)}
+                        >
+                            {direction.name}
+                        </button>
+                    ))}
+                </div>
             </div>
 
             <div className={styles.group1}>
